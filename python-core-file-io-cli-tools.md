@@ -110,10 +110,10 @@ except ZeroDivisionError:
     logging.error("Failed to calculate math.")
 ```
 
-6. Project Structure
+### 6. Project Structure
 For this week, organize your files like this:
-code
-Text
+
+```Text
 folder_organizer/
 │
 ├── main.py            # The entry point (argparse logic)
@@ -122,3 +122,4 @@ folder_organizer/
 │   └── test_utils.py  # Basic tests
 ├── README.md          # How to use it
 └── .gitignore         # Ignore venv/ and __pycache__/
+```
