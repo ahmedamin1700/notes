@@ -93,8 +93,8 @@ if __name__ == "__main__":
 
 ## 5. Logging (Better than print)
 `print()` is for the user. logging is for the developer (you) to see what happened later.
-code
-Python
+
+```Python
 import logging
 
 # Basic setup
@@ -108,6 +108,8 @@ try:
     result = 10 / 0
 except ZeroDivisionError:
     logging.error("Failed to calculate math.")
+```
+
 6. Project Structure
 For this week, organize your files like this:
 code
